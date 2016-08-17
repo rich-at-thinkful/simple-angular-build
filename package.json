@@ -1,0 +1,22 @@
+{
+  "name": "ngroute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/watchify/bin/cmd.js app/index.js -o bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
